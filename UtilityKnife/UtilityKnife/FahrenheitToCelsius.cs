@@ -8,12 +8,17 @@ namespace UtilityKnife
 {
     public class FahrenheitToCelsius
     {
-        public double FahrenheitToCelsiusConverter(double fahrenheit)
+        public double FahrenheitToCelsiusConverter(double fahrenheitTemp)
         {
-            double _fahrenheitTemp = 0.0;
-            double _celsiusTemp = 0.0;
+            double _celsius = 0.0;
 
-            return _celsiusTemp;
+            var step1 = Calculator.Subtract(fahrenheitTemp, 32);
+
+            var step2 = Calculator.Multiply(step1, 5.0);
+
+            _celsius = Calculator.Divide(step2, 9.0);
+
+            return _celsius;
         }
     }
 }
