@@ -8,22 +8,22 @@ namespace UtilityKnife
 {
     public class Calculator
     {
-        public int Sum(int a, int b)
+        public static double Sum(int a, int b)
         {
             return a + b;
         }
 
-        public int Subtract(int a, int b)
+        public static double Subtract(int a, int b)
         {
             return a - b;
         }
 
-        public int Multiply(int a, int b)
+        public static int Multiply(int a, int b)
         {
             return a * b;
         }
 
-        public int Divide(int a, int b)
+        public static double Divide(int a, int b)
         {
             return (a / b);
         }
