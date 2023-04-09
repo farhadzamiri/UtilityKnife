@@ -23,7 +23,7 @@ namespace UtilityKnife
             return a * b;
         }
 
-        public static double Divide(int a, int b)
+        public static double Divide(double a, double b)
         {
             return (a / b);
         }
